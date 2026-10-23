@@ -1,0 +1,15 @@
+# Segredos e configuração local
+.env
+
+# Dependências (rode `composer install`)
+/vendor/
+
+# Logs
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Editores / SO
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

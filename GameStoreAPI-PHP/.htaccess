@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Convenience for setups where the whole project (not just public/) is the
+# document root, e.g. C:/xampp/htdocs/GameStoreAPI-PHP. Sends every request
+# that isn't already inside /public into the front controller.
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L]

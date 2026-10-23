@@ -1,0 +1,20 @@
+{
+    "name": "gamestore/api-php",
+    "description": "GameStoreAPI reescrita em PHP puro (Clean Architecture), migrada de .NET/C#.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GameStore\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

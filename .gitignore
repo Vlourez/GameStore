@@ -1,0 +1,15 @@
+# Configuração local (senhas e chaves): use os .env.example
+.env
+
+# Dependências e build
+node_modules/
+dist/
+
+# Logs
+*.log
+GameStoreAPI-PHP/storage/logs/*
+!GameStoreAPI-PHP/storage/logs/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db

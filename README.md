@@ -1,6 +1,9 @@
 # 🎮 GameStore
 
-Loja de jogos digitais com **API REST em PHP** e **front-end em React**.
+Projeto **fullstack** de uma loja de jogos digitais, com back-end e front-end:
+
+- **Back-end:** API REST em PHP com banco MySQL
+- **Front-end:** site em React que consome essa API
 
 > Projeto desenvolvido em sala de aula, em grupo de 8 pessoas.
 
@@ -18,14 +21,14 @@ Loja de jogos digitais com **API REST em PHP** e **front-end em React**.
 
 | Parte | Tecnologias |
 | --- | --- |
-| API ([`GameStoreAPI-PHP`](GameStoreAPI-PHP)) | PHP 8.1+ puro (sem framework), Clean Architecture, PDO, MySQL/MariaDB, JWT |
-| Site ([`gamestore-front`](gamestore-front)) | React 19, Vite, React Router |
+| Back-end ([`GameStoreAPI-PHP`](GameStoreAPI-PHP)) | PHP 8.1+ puro (sem framework), Clean Architecture, PDO, MySQL/MariaDB, JWT |
+| Front-end ([`gamestore-front`](gamestore-front)) | React 19, Vite, React Router |
 
 ## Como rodar
 
 Precisa de **XAMPP** (Apache + MySQL, com PHP 8.1 ou mais novo) e **Node.js 20+**.
 
-### 1. API
+### 1. Back-end (API)
 
 1. Copie a pasta `GameStoreAPI-PHP` para `C:\xampp\htdocs\`.
 2. No XAMPP Control Panel, ligue o **Apache** e o **MySQL**.
@@ -37,7 +40,7 @@ Precisa de **XAMPP** (Apache + MySQL, com PHP 8.1 ou mais novo) e **Node.js 20+*
    ```
 6. Teste: `http://localhost/GameStoreAPI-PHP/public/api/games`
 
-### 2. Site
+### 2. Front-end (site)
 
 ```bash
 cd gamestore-front
